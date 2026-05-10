@@ -1,4 +1,19 @@
+# Build artifacts
 build/
+
+# Compiled binaries
+test_vector
+test_vector_asan
+
+# Object files
 *.o
+
+# Debug/sanitizer outputs
 *.out
+
+# Editor files
 .vscode/
+.idea/
+
+# OS files
+.DS_Store
